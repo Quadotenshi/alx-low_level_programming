@@ -7,11 +7,9 @@ int main(void)
 {
 	int x;
 
-	x = 0;
-	while (x <= 10)
+	for (x = '0'; x <= '9'; x++)
 	{
-		putchar("%d", x);
-		x++;
+		putchar(x);
 	}
 	putchar('\n');
 	return (0);
