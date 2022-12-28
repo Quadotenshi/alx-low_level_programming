@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 /**
  * print_to_98 - prints up to 98
  *@num: my number character as usual
