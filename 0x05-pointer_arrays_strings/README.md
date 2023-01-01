@@ -1,1 +1,0 @@
-GOD help me o
