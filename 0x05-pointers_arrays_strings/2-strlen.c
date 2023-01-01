@@ -2,7 +2,7 @@
  * _strlen - returns length of the string
  * @s: string to be passed in
  *
- * Returns: returns the length
+ * Return: returns the length
  */
 
 int _strlen(char *s)
