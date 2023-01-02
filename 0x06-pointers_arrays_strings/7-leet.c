@@ -18,7 +18,7 @@ char *leet(char *str)
 		s = *(str + 1);
 		for (j = 0; j < 10; ++j)
 			if (s == rs[j])
-				*(str + i) = rd[j/2];
+				*(str + i) = rd[j / 2];
 		++i;
 	}
 	return (str);
