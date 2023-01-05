@@ -1,9 +1,9 @@
 #include "main.h"
 /*
- * _puts_recursion - recursively prints string
- * @s: passed in string as arg
+ *_puts_recursion - recursively prints string
+ *@s: passed in string as arg
  *
- * Return: void
+ *Return: void
  */
 
 void _puts_recursion(char *s)
