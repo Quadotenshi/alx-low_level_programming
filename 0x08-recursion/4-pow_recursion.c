@@ -1,8 +1,10 @@
 #include "main.h"
-/*
+/**
  * _pow_recursion - compute the value of x raised to the power of y
  * @x: base number
- * @y: exponent number
+ * @y: exponent numbe
+ *
+ * Return: returns exponent of x
  */
 
 int _pow_recursion(int x, int y)

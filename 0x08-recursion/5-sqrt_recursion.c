@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * _sqrt_recursion - square root finder
  * @n: integer
  *
@@ -11,7 +11,7 @@ int _sqrt_recursion(int n)
 	return (_sqrt(n, 1));
 }
 
-/*
+/**
  * _sqrt - natural square finder
  * @n: integer
  * @i: integer to iterate

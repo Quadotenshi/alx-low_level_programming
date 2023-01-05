@@ -1,5 +1,5 @@
 #include "main"
-/*
+/**
  * is_prime - check if number is prime
  * @n: integer
  * @i: integer to interate
