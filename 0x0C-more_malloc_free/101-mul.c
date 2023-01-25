@@ -19,13 +19,16 @@ int main(int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
-		for (j = 0; argv[i][j] > 57 || argv[i][j] < 48)
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			printf("Error]\n");
-			exit(98);
+			if (argv[i][j] > 57 || argv[i][j] < 48)
+			{
+				printf("Error]\n");
+				exit(98);
+			}
 		}
+		mul = atol(argv[i]) * atol(argv[2]);
+		printf("%lu\n", mul);
 	}
-	mul = atol(argv[i]) * atol(argv[2]);
-	printf("%lu\n", mul);
 	return (0);
 }
